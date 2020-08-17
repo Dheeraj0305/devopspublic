@@ -15,7 +15,7 @@ jobs:
     env:    # The variables to set for your project and organization
       codescan_org: '5f348e5e0af2540037851a6d'
       codescan_project_key: 'Dheeraj0305-SumItUp'
-      codescan_token: ${{ secrets.codescan_token }}
+      codescan_token: ${{ secrets.first token(codescan }}
     steps:
     - uses: actions/checkout@v1
     - uses: actions/setup-node@v1.1.0
